@@ -1,0 +1,56 @@
+.section-even-more .section-content .full-list-container .full-list-headline {
+    max-width: 548px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-even-more .section-content .full-list-container .full-list-headline {
+        max-width:480px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-even-more .section-content .full-list-container .full-list-headline {
+        max-width:380px
+    }
+}
+html.enhanced .page-overview .section-messages .grid-item-messaging .image-messages-messaging{
+     display:block;
+}
+.xs-nowrap{
+    display: inline-block;
+    text-decoration: inherit;
+    white-space:nowrap
+}
+.xs-small{
+       display:block;
+} 
+@media only screen  and (max-width: 1068px) {
+     .xs-small{
+       display:none;
+} 
+}
+@media only screen  and (max-width: 734px) {
+     .xs-small{
+       display:block;
+} 
+}
+@media only screen and (max-width: 320px) {
+	.xs-small{
+       display:none
+	} 
+}
+@media only screen and (max-width:320px){
+    .xs-nowrap{
+    white-space:normal
+   }
+}
+
+/*  */
+.section-accessibility .grid-item-gaming-buddy .tile-body-blockquote {
+    margin-left:-90px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-accessibility .grid-item-gaming-buddy .tile-body-blockquote {
+        margin-left:0px;
+    }
+}
